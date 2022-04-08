@@ -1,0 +1,51 @@
+/* Colors */
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black:  #000;
+
+$color-purple: #36015F;
+
+$color-blue-dark: #0095C5;
+$color-blue-light: #38FFFF;
+$color-pink: #FF005C;
+
+$color-grey: #828282;
+
+$color-white: #fff;
+$color-black: #35332C;
+
+/* Font-family */
+$font-primary: 'Poppins', sans-serif;
+$font-secondary: 'Montserrat', sans-serif;
+
+/* Font-size */
+$font-size-large: 4rem;
+$font-size-medium: 2.4rem;
+$font-size-small: 1.2rem;
+
+/* Font-weight */
+$bold: 400;
+$light: 300;
+$extra-light: 200;
+
+/* Grid */
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
