@@ -1,1 +1,46 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <!-- <Link className="navbar-brand navbar__logo" to="/">
+      <img src={process.env.PUBLIC_URL + 'icons/portfolio-icon.svg'} className="navbar__icon--portfolio" alt="profile logo"/>
+    </Link> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <div class="d-flex">
+          <ul class="navbar-nav me-2">
+              <li class="nav-item">
+                <a class="nav-link navbar__link" routerLink="/about" routerLinkActive="nav-link--active" [routerLinkActiveOptions]="{exact: true}">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link" routerLink="/resume" routerLinkActive="nav-link--active">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link" routerLink="/portfolio" routerLinkActive="nav-link--active">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link" routerLink="/contact" routerLinkActive="nav-link--active">Contact</a>
+              </li>
+          </ul>
+      </div>
+      <div class="me-auto"></div>
+      <div class="d-flex">
+          <ul class="navbar-nav me-2">
+              <li class="nav-item navbar__social-container">
+                <a className="nav-link navbar__social" href="https://www.linkedin.com/in/lawrence-dovin/" target="_blank" rel="noreferrer">
+                  <!-- <FontAwesomeIcon icon={['fab', 'linkedin-in']} /> -->
+                  LinkedIn
+                </a>
+              </li>
+              <li class="nav-item navbar__social-container">
+                <a className="nav-link navbar__social" href="https://github.com/lawrencedovin/" target="_blank" rel="noreferrer">
+                    <!-- <FontAwesomeIcon icon={['fab', 'github-alt']} /> -->
+                    Github
+                </a>
+              </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>

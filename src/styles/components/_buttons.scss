@@ -1,1 +1,74 @@
 /* Buttons */
+.btn {
+  border-radius: 4rem;
+  border: none;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1.2rem;
+  width: 16rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 3.2rem;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 3.2rem;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.hero {
+  &__button {
+    &--contact {
+      background-color: $color-white;
+      color: $color-blue-dark;
+    }
+
+    &--contact span {
+      color: $color-blue-dark;
+    }
+
+    &--contact span:after {
+      content: '\260E';
+    }
+
+    &--preview {
+      background-color: $color-purple;
+      color: $color-white;
+    }
+
+    &--preview span {
+      color: $color-white;
+    }
+
+    &--preview-about span:after {
+      content: '🖊️';
+    }
+
+    &--preview-resume span:after {
+      content: '📄';
+    }
+
+    &--preview-portfolio span:after {
+      content: '💼';
+    }
+  }
+}

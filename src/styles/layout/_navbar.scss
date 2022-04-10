@@ -1,1 +1,43 @@
 /* Navbar */
+.navbar {
+  padding: 1.6rem 4.8rem .8rem;
+  background: $color-purple;
+  &__logo {
+      margin-right: 3.2rem;
+  }
+  &__link {
+      font-family: $font-primary;
+      color: $color-white;
+      font-weight: 400;
+      font-size: $font-size-small;
+      margin-right: 1.6rem;
+      text-transform: uppercase;
+      &:hover {
+          color: $color-blue-light;
+      }
+  }
+  &__icon {
+      &--portfolio {
+          height: 3.2rem;
+          width: 3.2rem;
+      }
+  }
+
+  &__social {
+      color: $color-white;
+      font-size: $font-size-medium;
+
+      &-container:not(:last-child) {
+          margin-right: 1.6rem;
+      }
+
+
+      &:hover {
+          color: $color-blue-light;
+      }
+  }
+}
+
+.container-fluid {
+  padding: 0;
+}
