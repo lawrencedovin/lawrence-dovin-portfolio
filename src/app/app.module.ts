@@ -8,11 +8,17 @@ import { AppRoutingModule } from './app-routing.module';
 
 // CUSTOM MODULES
 import { SharedModule } from './shared/shared.module';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { FooterComponent } from './footer/footer.component';
+import { PagePreviewComponent } from './page-preview/page-preview.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContactFormComponent,
+    FooterComponent,
+    PagePreviewComponent
   ],
   imports: [
     // ANGULAR MODULES
