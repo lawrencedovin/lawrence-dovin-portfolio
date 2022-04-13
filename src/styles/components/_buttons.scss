@@ -1,4 +1,5 @@
 /* Buttons */
+@use '../abstracts/variables';
 .btn {
   border-radius: 4rem;
   border: none;
@@ -38,12 +39,12 @@
 .hero {
   &__button {
     &--contact {
-      background-color: $color-white;
-      color: $color-blue-dark;
+      background-color: variables.$color-white;
+      color: variables.$color-blue-dark;
     }
 
     &--contact span {
-      color: $color-blue-dark;
+      color: variables.$color-blue-dark;
     }
 
     &--contact span:after {
@@ -51,12 +52,12 @@
     }
 
     &--preview {
-      background-color: $color-purple;
-      color: $color-white;
+      background-color: variables.$color-purple;
+      color: variables.$color-white;
     }
 
     &--preview span {
-      color: $color-white;
+      color: variables.$color-white;
     }
 
     &--preview-about span:after {

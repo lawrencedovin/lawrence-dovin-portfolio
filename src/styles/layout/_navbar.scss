@@ -1,19 +1,20 @@
 /* Navbar */
+@use '../abstracts/variables';
 .navbar {
   padding: 1.6rem 4.8rem .8rem;
-  background: $color-purple;
+  background: variables.$color-purple;
   &__logo {
       margin-right: 3.2rem;
   }
   &__link {
-      font-family: $font-primary;
-      color: $color-white;
+      font-family: variables.$font-primary;
+      color: variables.$color-white;
       font-weight: 400;
-      font-size: $font-size-small;
+      font-size: variables.$font-size-small;
       margin-right: 1.6rem;
       text-transform: uppercase;
       &:hover {
-          color: $color-blue-light;
+          color: variables.$color-blue-light;
       }
   }
   &__icon {
@@ -24,8 +25,8 @@
   }
 
   &__social {
-      color: $color-white;
-      font-size: $font-size-medium;
+      color: variables.$color-white;
+      font-size: variables.$font-size-medium;
 
       &-container:not(:last-child) {
           margin-right: 1.6rem;
@@ -33,7 +34,7 @@
 
 
       &:hover {
-          color: $color-blue-light;
+          color: variables.$color-blue-light;
       }
   }
 }
