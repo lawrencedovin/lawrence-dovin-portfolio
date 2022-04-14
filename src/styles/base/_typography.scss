@@ -3,8 +3,17 @@
 
 @font-face {
   font-family: "dreaming_outloud_scslantedpro";
-  src: url('../../assets/fonts/my_creative_land_-_dreaming_outloud_script_slanted_pro-webfont.woff2') format('woff2'),
-  url('../../assets/fonts/my_creative_land_-_dreaming_outloud_script_slanted_pro-webfont.woff') format('woff');
+  src: url('../../assets/fonts/dreaming-outloud/my_creative_land_-_dreaming_outloud_script_slanted_pro-webfont.woff2') format('woff2'),
+  url('../../assets/fonts/dreaming-outloud/my_creative_land_-_dreaming_outloud_script_slanted_pro-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'adventium_demoregular';
+  src: url('../../assets/fonts/adventium-demo/adventiumdemoregular-webfont.woff2') format('woff2'),
+       url('../../assets/fonts/adventium-demo/adventiumdemoregular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
