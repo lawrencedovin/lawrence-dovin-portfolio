@@ -8,10 +8,10 @@ import { AppRoutingModule } from './app-routing.module';
 
 // CUSTOM MODULES
 import { SharedModule } from './shared/shared.module';
-import { ContactFormComponent } from './contact-form/contact-form.component';
-import { FooterComponent } from './footer/footer.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { FooterComponent } from './shared/footer/footer.component';
 import { PagePreviewComponent } from './page-preview/page-preview.component';
-import { HeroComponent } from './hero/hero.component';
+import { HeroComponent } from './components/hero/hero.component';
 
 
 @NgModule({

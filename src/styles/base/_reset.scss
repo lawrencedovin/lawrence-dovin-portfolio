@@ -1,30 +1,44 @@
 /* Reset Clears Browser Default Formatting */
+@use '../abstracts/mixins';
+@use '../abstracts/variables';
 *,
 *::after,
 *::before {
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
+
 }
 
 html {
-    // // This defines what 1rem is
-    // font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+    // This defines what 1rem is
+    font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
 
-    // @include respond(tablet-landscape) { // width < 1200?
-    //     font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
-    // }
+    // Default Font-Family
+    font-family: variables.$font-primary;
 
-    // @include respond(tablet-portrait) { // width < 900?
-    //     font-size: 50%; //1 rem = 8px, 8/16 = 50%
-    // }
+    @include mixins.respond(tablet-landscape) { // width < 1200?
+        font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+    }
 
-    // @include respond(big-desktop) {
-    //     font-size: 75%; //1rem = 12, 12/16
-    // }
+    @include mixins.respond(tablet-portrait) { // width < 900?
+        font-size: 50%; //1 rem = 8px, 8/16 = 50%
+    }
+
+    @include mixins.respond(big-desktop) {
+        font-size: 75%; //1rem = 12, 12/16
+    }
 }
 
 body {
 	box-sizing: border-box; /*changes box model, so that the borders and the paddings are not added to the total width or height for a box.
                               Without this the borders and paddings are added to the height or width of an element*/
+
+    @include mixins.respond(tablet-portrait) { // width < 900?
+        padding: 0;
+    }
+}
+
+.row {
+    margin: 0;
 }
