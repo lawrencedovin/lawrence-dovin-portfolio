@@ -11,6 +11,7 @@ import { SharedModule } from './shared/shared.module';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { FooterComponent } from './footer/footer.component';
 import { PagePreviewComponent } from './page-preview/page-preview.component';
+import { HeroComponent } from './hero/hero.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { PagePreviewComponent } from './page-preview/page-preview.component';
     AppComponent,
     ContactFormComponent,
     FooterComponent,
-    PagePreviewComponent
+    PagePreviewComponent,
+    HeroComponent
   ],
   imports: [
     // ANGULAR MODULES
