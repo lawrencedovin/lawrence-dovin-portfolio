@@ -1,2 +1,10 @@
 /* Typography rules */
 @use '../abstracts/variables';
+
+@font-face {
+  font-family: "dreaming_outloud_scslantedpro";
+  src: url('../../assets/fonts/my_creative_land_-_dreaming_outloud_script_slanted_pro-webfont.woff2') format('woff2'),
+  url('../../assets/fonts/my_creative_land_-_dreaming_outloud_script_slanted_pro-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
