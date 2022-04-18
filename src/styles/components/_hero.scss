@@ -14,7 +14,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: linear-gradient(180deg, variables.$color-purple 15.68%, variables.$color-blue-dark 65.95%, variables.$color-blue-light 116.22%);
+      background: linear-gradient(180deg, variables.$color-green 0.94%, variables.$color-blue 100%);
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 100%);
   }
 
@@ -46,7 +46,7 @@
 
   &__name,
   &__title {
-      color: variables.$color-blue-light;
+      color: variables.$color-white;
       font-family: variables.$font-hero;
   }
 

@@ -40,11 +40,11 @@
   &__button {
     &--contact {
       background-color: variables.$color-white;
-      color: variables.$color-blue-dark;
+      color: variables.$color-blue;
     }
 
     &--contact span {
-      color: variables.$color-blue-dark;
+      color: variables.$color-blue;
     }
 
     &--contact span:after {
@@ -52,7 +52,7 @@
     }
 
     &--preview {
-      background-color: variables.$color-purple;
+      background-color: variables.$color-green;
       color: variables.$color-white;
     }
 
