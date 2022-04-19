@@ -1,2 +1,14 @@
 /* Bootstrap Overrides */
 @use '../abstracts/variables';
+
+.col-md-12 {
+  padding: 0 8.8rem;
+}
+
+.row {
+  margin: 0;
+}
+
+.container-fluid {
+max-width: 144rem;
+}

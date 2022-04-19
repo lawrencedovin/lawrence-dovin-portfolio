@@ -79,11 +79,11 @@
   }
 
   &__image {
-      max-width: 50vw;
+      max-height: 50vh;
       position: absolute;
-      top: 40%;
+      top: 38vh;
       transform: translateY(-50%);
-      left: 36%;
+      left: 40vw;
   }
 
   &__container {
