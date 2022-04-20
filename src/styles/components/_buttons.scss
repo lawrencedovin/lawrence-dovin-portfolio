@@ -38,37 +38,37 @@
 
 .hero {
   &__button {
-    &--contact {
-      background-color: variables.$color-white;
+    background-color: variables.$color-white;
+    color: variables.$color-blue;
+
+    & span {
       color: variables.$color-blue;
     }
 
-    &--contact span {
-      color: variables.$color-blue;
-    }
-
-    &--contact span:after {
+    & span:after {
       content: '\260E';
     }
+  }
+}
 
-    &--preview {
+.page-preview {
+  &__button {
       background-color: variables.$color-green;
       color: variables.$color-white;
-    }
 
-    &--preview span {
+    & span {
       color: variables.$color-white;
     }
 
-    &--preview-about span:after {
+    &--about span:after {
       content: '🖊️';
     }
 
-    &--preview-resume span:after {
+    &--resume span:after {
       content: '📄';
     }
 
-    &--preview-portfolio span:after {
+    &--portfolio span:after {
       content: '💼';
     }
   }
