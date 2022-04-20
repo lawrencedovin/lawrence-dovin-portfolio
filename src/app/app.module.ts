@@ -10,7 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/shared.module';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { PagePreviewComponent } from './page-preview/page-preview.component';
+import { PagePreviewComponent } from './components/page-preview/page-preview.component';
 import { HeroComponent } from './components/hero/hero.component';
 
 
