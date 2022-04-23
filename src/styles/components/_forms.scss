@@ -21,10 +21,10 @@
         }
         &-title {
             font-size: variables.$font-size-medium;
-            margin-bottom: 6.4rem;
+            margin-bottom: 4.8rem;
         }
         &-details {
-            $font-size: variables.$font-size-small;
+            font-size: variables.$font-size-small;
         }
         &-details:not(:last-child) {
             padding-bottom: 2.4rem;
