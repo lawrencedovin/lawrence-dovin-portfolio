@@ -17,7 +17,7 @@
             color: variables.$color-white;
             font-weight: variables.$light;
             text-align: left;
-
+            list-style: none;
         }
         &-title {
             font-size: variables.$font-size-medium;
@@ -25,9 +25,16 @@
         }
         &-details {
             font-size: variables.$font-size-small;
+            &-container {
+              margin: 0;
+              padding: 0;
+            }
         }
         &-details:not(:last-child) {
             padding-bottom: 2.4rem;
+        }
+        &-icon-details{
+          margin-right: 1.6rem;
         }
   }
 
