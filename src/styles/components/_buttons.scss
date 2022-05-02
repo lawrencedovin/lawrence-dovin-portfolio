@@ -54,6 +54,13 @@
   }
 }
 
+.contact-form {
+  &__button {
+    background-color: variables.$color-green-light;
+    color: variables.$color-white;
+  }
+}
+
 .page-preview {
   &__button {
       background-color: variables.$color-green-light;
