@@ -42,4 +42,16 @@
       margin-top: 25.6rem;
       text-align: center;
   }
+
+  &__input,
+  &__text-area {
+    border: solid 2px gray;
+  }
+
+  &__input {
+  }
+
+  &__text-area {
+
+  }
 }
