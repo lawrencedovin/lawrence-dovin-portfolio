@@ -45,7 +45,22 @@
 
   &__input,
   &__text-area {
-    border: solid 2px gray;
+    color: variables.$color-black;
+    border: solid 2px variables.$color-grey;
+
+    // &:hover {
+    //   opacity: .5;
+    // }
+
+    &:focus {
+      color: variables.$color-black;
+      border-color: variables.$color-black;
+    }
+
+    &::placeholder {
+      color: variables.$color-grey;
+    }
+
   }
 
   &__input {

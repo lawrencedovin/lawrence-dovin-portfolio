@@ -1,7 +1,7 @@
 /* Footer */
 @use '../abstracts/variables';
 .footer {
-  background: linear-gradient(90deg, variables.$color-green 0%, variables.$color-blue-light 100%);
+  background: linear-gradient(90deg, variables.$color-green 0%, variables.$color-blue 100%);
   padding-top: 3.2rem;
   padding-bottom: 3.2rem;
   font-family: variables.$font-primary;
