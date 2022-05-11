@@ -55,9 +55,16 @@
 }
 
 .contact-form {
+  &__button, &__button:hover {
+    color: variables.$color-white;
+  }
+
   &__button {
     background-color: variables.$color-green-light;
-    color: variables.$color-white;
+
+    &:hover {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+    }
   }
 }
 
@@ -66,20 +73,20 @@
       background-color: variables.$color-green-light;
       color: variables.$color-white;
 
-    & span {
-      color: variables.$color-white;
-    }
+      & span {
+        color: variables.$color-white;
+      }
 
-    &--about span:after {
-      content: '🖊️';
-    }
+      &--about span:after {
+        content: '🖊️';
+      }
 
-    &--resume span:after {
-      content: '📄';
-    }
+      &--resume span:after {
+        content: '📄';
+      }
 
-    &--portfolio span:after {
-      content: '💼';
-    }
+      &--portfolio span:after {
+        content: '💼';
+      }
   }
 }
