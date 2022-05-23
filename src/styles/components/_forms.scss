@@ -5,7 +5,7 @@
   padding-left: 33.6rem;
   display: inline-block;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  &__info {
+  &__contact {
       padding: 4.8rem 5.6rem;
       display: inline-block;
       background: linear-gradient(161.18deg, variables.$color-green-light -9.31%, rgba(1, 107, 91, 0) 108.92%);
@@ -21,7 +21,7 @@
         }
         &-title {
             font-size: variables.$font-size-medium;
-            margin-bottom: 4.8rem;
+            margin-bottom: 3.2rem;
         }
         &-details {
             font-size: variables.$font-size-small;
@@ -41,10 +41,11 @@
   &__social {
     display: inline;
     &:not(:last-child) {
-      margin-right: 3.2rem;
+      margin-right: 2.4rem;
     }
+
     &-container {
-      margin-top: 4rem;
+      margin-top: 3.2rem;
       padding: 0;
       list-style: none;
     }
@@ -60,6 +61,7 @@
 
   &__container {
       margin-top: 25.6rem;
+      font-family: variables.$font-primary;
       text-align: center;
   }
 
@@ -77,6 +79,29 @@
       color: variables.$color-grey;
     }
 
+  }
+
+  &__title,
+  &__description-container {
+    color: variables.$color-black;
+    text-align: start;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: variables.$font-size-medium;
+  }
+
+  &__description {
+    font-size: variables.$font-size-small;
+
+    &-container {
+      margin: .8rem auto 1.6rem;
+    }
+
+    &-icon {
+      color: variables.$color-blue;
+    }
   }
 
   &__input {
