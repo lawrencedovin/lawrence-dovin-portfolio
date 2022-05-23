@@ -27,7 +27,13 @@
       </li>
     </ul>
   </div>
-  <form (ngSubmit)="handleSubmit(form.value, form.valid)" #form="ngForm" novalidate class="contact-form">
+  <!-- <form
+    #form="ngForm"
+    target="_blank"
+    action="https://formsubmit.co/eddcfb2d526e3a057384fb823c55341e"
+    method="POST"
+    class="contact-form"
+  >
     <h1 class="contact-form__title">Get in Touch!</h1>
     <div class="contact-form__description-container">
       <span class="contact-form__description">Feel free to <i class="fa-solid fa-droplet contact-form__description-icon"></i> a Message</span>
@@ -72,6 +78,72 @@
       </textarea>
       <p *ngIf="message.errors?.['required'] && message.dirty" class="error">Your Message is required.</p>
     </div>
-    <button [disabled]="form.invalid" class="contact-form__button btn">SEND MESSAGE</button>
+    <button type="submit" [disabled]="form.invalid" class="contact-form__button btn">SEND MESSAGE</button>
+  </form> -->
+<!-- <form action="https://mailthis.to/lawrencedovin@gmail.com"
+    method="POST">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <input type="submit" value="Send" (click)="reloadCurrentPage()">
+</form> -->
+
+<form
+  target="_blank"
+  action="https://formsubmit.co/eddcfb2d526e3a057384fb823c55341e"
+  method="POST"
+  class="contact-form"
+  >
+  <h1 class="contact-form__title">Get in Touch!</h1>
+  <div class="contact-form__description-container">
+    <span class="contact-form__description">Feel free to <i class="fa-solid fa-droplet contact-form__description-icon"></i> a Message</span>
+  </div>
+  <div class="contact-form__input-container">
+    <input
+      type="text"
+      class="contact-form__input form-control"
+      name="fullName"
+      placeholder="Full Name"
+      required
+    >
+  </div>
+  <div class="contact-form__input-container">
+    <input
+      type="email"
+      class="contact-form__input form-control"
+      name="email"
+      placeholder="Email"
+      required
+    >
+  </div>
+  <div class="contact-form__input-container">
+    <textarea
+      class="contact-form__text-area form-control"
+      name="message"
+      placeholder="Your Message"
+    >
+    </textarea>
+  </div>
+  <button type="submit" class="contact-form__button btn">SEND MESSAGE</button>
+</form>
+
+<!-- <div class="container">
+  <h1>FormSubmit Demo</h1>
+  <form target="_blank" action="https://formsubmit.co/eddcfb2d526e3a057384fb823c55341e" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
   </form>
+</div> -->
+
 </div>
