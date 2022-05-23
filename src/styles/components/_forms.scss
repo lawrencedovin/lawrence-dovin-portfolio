@@ -2,10 +2,11 @@
 @use '../abstracts/variables';
 .contact-form {
   padding: 8rem 4rem;
-  padding-left: 33.6rem;
+  padding-left: 24rem;
   display: inline-block;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   &__contact {
+      margin-right: -16rem;
       padding: 4.8rem 5.6rem;
       display: inline-block;
       background: linear-gradient(161.18deg, variables.$color-green-light -9.31%, rgba(1, 107, 91, 0) 108.92%);
@@ -48,6 +49,7 @@
       margin-top: 3.2rem;
       padding: 0;
       list-style: none;
+      text-align: center;
     }
 
     &-icons {
@@ -62,23 +64,27 @@
   &__container {
       margin-top: 25.6rem;
       font-family: variables.$font-primary;
-      text-align: center;
   }
 
   &__input,
   &__text-area {
-    color: variables.$color-black;
+    width: 32rem;
+    font-size: variables.$font-size-small;
+    color: variables.$color-blue;
     border: solid 2px variables.$color-grey;
 
     &:focus {
-      color: variables.$color-black;
-      border-color: variables.$color-black;
+      color: variables.$color-blue;
+      border-color: variables.$color-blue;
     }
 
     &::placeholder {
       color: variables.$color-grey;
     }
 
+    &-container {
+      margin-bottom: 1.6rem;
+    }
   }
 
   &__title,
@@ -96,18 +102,21 @@
     font-size: variables.$font-size-small;
 
     &-container {
-      margin: .8rem auto 1.6rem;
+      margin: .8rem auto 3.2rem;
     }
 
     &-icon {
       color: variables.$color-blue;
     }
   }
+}
 
-  &__input {
-  }
+input.ng-dirty.ng-invalid {
+  border-color: variables.$color-red;
+}
 
-  &__text-area {
-
-  }
+.error {
+  margin-top: .8rem;
+  font-size: variables.$font-size-small;
+  color: variables.$color-red;
 }

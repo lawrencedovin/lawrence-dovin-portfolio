@@ -1,4 +1,4 @@
-<div class="contact-form__container">
+<div class="contact-form__container d-flex align-items-center justify-content-center">
   <div class="contact-form__contact">
     <h1 class="contact-form__contact-title">
       Contact
@@ -27,14 +27,51 @@
       </li>
     </ul>
   </div>
-  <form class="contact-form">
+  <form (ngSubmit)="handleSubmit(form.value, form.valid)" #form="ngForm" novalidate class="contact-form">
     <h1 class="contact-form__title">Get in Touch!</h1>
     <div class="contact-form__description-container">
       <span class="contact-form__description">Feel free to <i class="fa-solid fa-droplet contact-form__description-icon"></i> a Message</span>
     </div>
-      <input type="text" class="contact-form__input form-control" placeholder="Your Name*">
-      <input type="text" class="contact-form__input form-control" placeholder="Your Email*">
-      <textarea class="contact-form__text-area form-control" placeholder="Your Message*"></textarea>
-    <button class="contact-form__button btn">SEND MESSAGE</button>
+    <div class="contact-form__input-container">
+      <input
+        type="text"
+        class="contact-form__input form-control"
+        name="fullName"
+        placeholder="Full Name"
+        required
+        #fullName="ngModel"
+        [ngModel]="details?.fullName"
+        [class.is-invalid]="fullName.invalid && fullName.dirty"
+      >
+      <p *ngIf="fullName.errors?.['required'] && fullName.dirty" class="error">Full Name is required.</p>
+    </div>
+    <div class="contact-form__input-container">
+      <input
+        type="email"
+        class="contact-form__input form-control"
+        name="email"
+        placeholder="Email"
+        required
+        #email="ngModel"
+        [ngModel]="details?.email"
+        pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+        [class.is-invalid]="email.invalid && email.dirty"
+      >
+      <p *ngIf="email.errors?.['required'] && email.dirty" class="error">Email is required, can't be empty.</p>
+      <p *ngIf="email.errors?.['pattern']" class="error">Email is invalid, needs to be in email format.</p>
+    </div>
+    <div class="contact-form__input-container">
+      <textarea
+        class="contact-form__text-area form-control required"
+        name="message"
+        placeholder="Your Message"
+        required
+        #message="ngModel"
+        [ngModel]="details?.message"
+      >
+      </textarea>
+      <p *ngIf="message.errors?.['required'] && message.dirty" class="error">Your Message is required.</p>
+    </div>
+    <button [disabled]="form.invalid" class="contact-form__button btn">SEND MESSAGE</button>
   </form>
 </div>

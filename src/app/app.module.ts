@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 
 // CUSTOM MODULES
 import { SharedModule } from './shared/shared.module';
@@ -26,6 +27,7 @@ import { HeroComponent } from './components/hero/hero.component';
     // ANGULAR MODULES
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
 
     // CUSTOM MODULES
     SharedModule
