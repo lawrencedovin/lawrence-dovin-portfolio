@@ -33,9 +33,29 @@
         &-details:not(:last-child) {
             padding-bottom: 2.4rem;
         }
-        &-icon-details{
+        &-icons{
           margin-right: 1.6rem;
         }
+  }
+
+  &__social {
+    display: inline;
+    &:not(:last-child) {
+      margin-right: 3.2rem;
+    }
+    &-container {
+      margin-top: 4rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    &-icons {
+      font-size: variables.$font-size-medium;
+      color: variables.$color-white;
+      &:hover {
+        color: variables.$color-blue;
+      }
+    }
   }
 
   &__container {
@@ -47,10 +67,6 @@
   &__text-area {
     color: variables.$color-black;
     border: solid 2px variables.$color-grey;
-
-    // &:hover {
-    //   opacity: .5;
-    // }
 
     &:focus {
       color: variables.$color-black;
