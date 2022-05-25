@@ -1,0 +1,54 @@
+Qwikwire's Landing Page X
+AngularJS 1.6/Angular Material/HTML/CSS 
+Qwikwire’s revamped landing page which was designed and organized to allow the visitor to understand Qwikwire’s business model efficiently in a single page website.
+https://qwikwire.com/
+
+Qwikwire's Consumers Dashboard
+
+Qwikwire's Payment Portals
+
+Wonder Recipe
+Python|Flask|JavaScript|HTML|Sass SCSS|Bootstrap
+Wonder Recipe allows users who want to discover recipes to do so conveniently from the website all the way to the grocery store. Over 550 Recipes extracted from spoonacular API including recipe details such as cuisine, diet, ingredients, macros, and cooking directions.
+https://github.com/lawrencedovin/capstone-1-wonder-recipe
+https://wonder-recipe.herokuapp.com/
+
+Bark
+React/JavaScript/Express/Node.js/HTML/ Sass SCSS/ Bootstrap
+Dog adoption website which discovers 100,000s of actively available dogs from the petfinder API. Where users can find their new best friend filtering by their location and breed.
+https://github.com/lawrencedovin/capstone-2-bark
+
+Boggle X
+Python/Flask/JavaScript/HTML/Sass SCSS
+Word Game where users try to find the most words for points within a countdown. Where the words found will be a sequence of adjacent letters on the Boggle board.
+https://boggle-py.herokuapp.com/
+https://github.com/lawrencedovin/boggle
+
+Connect 4 
+JavaScript/HTML/CSS/Bootstrap
+2-player Board Game where each user has a different colored disk. The users take turns dropping their disks to connect 4 of their adjacent disks to win. 
+https://lawrencedovin.github.io/connect-four/
+https://github.com/lawrencedovin/connect-four
+
+Memory Game
+JavaScript/HTML/CSS/Bootstrap
+Memory game where you try to match cards with the least amount of turns.
+https://lawrencedovin.github.io/memory-game/
+https://github.com/lawrencedovin/memory-game
+
+To-do List
+JavaScript/HTML/CSS/Bootstrap
+A simple to-do list where users add, strike off and delete tasks.
+https://lawrencedovin.github.io/to-do/
+https://github.com/lawrencedovin/to-do
+
+Jeopardy!
+JavaScript/HTML/Sass SCSS/Bootstrap
+Jeopardy is based on a famous American Quiz Show. Where participants answer categorical questions for money.
+https://lawrencedovin.github.io/jeopardy/
+https://github.com/lawrencedovin/jeopardy
+
+
+Twillio
+
+Natours
