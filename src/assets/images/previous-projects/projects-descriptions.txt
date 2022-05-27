@@ -34,7 +34,7 @@ JavaScript/HTML/CSS/Bootstrap
 https://lawrencedovin.github.io/connect-four/
 https://github.com/lawrencedovin/connect-four
 
-Memory Game
+Memory Game X
 JavaScript/HTML/CSS/Bootstrap
 Memory game where you try to match cards with the least amount of turns.
 https://lawrencedovin.github.io/memory-game/
