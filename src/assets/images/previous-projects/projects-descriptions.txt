@@ -1,11 +1,15 @@
 Qwikwire's Landing Page X
-AngularJS 1.6/Angular Material/HTML/CSS 
+AngularJS 1.6/JavaScript/Angular Material/HTML/CSS 
 Qwikwire’s revamped landing page which was designed and organized to allow the visitor to understand Qwikwire’s business model efficiently in a single page website.
 https://qwikwire.com/
 
 Qwikwire's Consumers Dashboard
+AngularJS 1.X/JavaScript/Angular Material/HTML/CSS
+The Consumers Dashboard is a tool that condenses all the payments transactions along with their statuses into one platform. It allows customers to manage their transactions and refunds between property clients.
 
 Qwikwire's Payment Portals
+AngularJS 1.X/JavaScript/HTML/CSS
+The Payment Portals allow oversea workers that have plans to retire in the Philippines from the US to make cross-border payments for their property payments directly to the property client which eliminates the need for a middleman to pay on the oversea worker’s behalf. 
 
 Wonder Recipe
 Python|Flask|JavaScript|HTML|Sass SCSS|Bootstrap
@@ -48,7 +52,18 @@ Jeopardy is based on a famous American Quiz Show. Where participants answer cate
 https://lawrencedovin.github.io/jeopardy/
 https://github.com/lawrencedovin/jeopardy
 
-
-Twillio
+Nexter
+HTML/ Sass SCSS
+Real Estate Website which is the Final Project following the Advanced CSS and Sass Course using CSS Grid.
+https://lawrencedovin.github.io/nexter/
+https://github.com/lawrencedovin/nexter
 
 Natours
+HTML/ Sass SCSS
+Adventure Tours Website following the Advanced CSS and Sass Course using CSS Grid.
+https://lawrencedovin.github.io/natours/
+https://github.com/lawrencedovin/natours
+
+
+
+
