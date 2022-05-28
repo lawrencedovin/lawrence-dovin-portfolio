@@ -72,6 +72,7 @@
     font-size: variables.$font-size-small;
     color: variables.$color-blue;
     border: solid 2px variables.$color-grey;
+    resize: none;
 
     &:focus {
       color: variables.$color-blue;
