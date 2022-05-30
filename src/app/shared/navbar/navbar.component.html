@@ -7,21 +7,13 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <div class="d-flex">
-          <ul class="navbar-nav me-2">
-              <li class="nav-item">
-                <a class="nav-link navbar__link" routerLink="/about" routerLinkActive="nav-link--active" [routerLinkActiveOptions]="{exact: true}">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navbar__link" routerLink="/resume" routerLinkActive="nav-link--active">Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navbar__link" routerLink="/portfolio" routerLinkActive="nav-link--active">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link navbar__link" routerLink="/contact" routerLinkActive="nav-link--active">Contact</a>
-              </li>
-          </ul>
+      <div class="d-flex me-2">
+        <div class="me-2">
+          <a class="nav-link navbar__link" routerLink="/about" routerLinkActive="nav-link--active" [routerLinkActiveOptions]="{exact: true}">About</a>
+          <a class="nav-link navbar__link" routerLink="/resume" routerLinkActive="nav-link--active">Resume</a>
+          <a class="nav-link navbar__link" routerLink="/portfolio" routerLinkActive="nav-link--active">Portfolio</a>
+          <a class="nav-link navbar__link" routerLink="/contact" routerLinkActive="nav-link--active">Contact</a>
+        </div>
       </div>
       <div class="me-auto"></div>
       <div class="d-flex">
@@ -39,6 +31,16 @@
           </ul>
       </div>
     </div>
+    <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <div class="d-flex">
+        <div class="me-2">
+          <a class="nav-link nav-link-ltr" href="#">Home</a>
+          <a class="nav-link nav-link-ltr" href="#">About</a>
+          <a class="nav-link nav-link-ltr" href="#">Contact</a>
+          <a class="nav-link nav-link-ltr" href="#">Blog</a>
+        </div>
+      </div>
+    </div> -->
   </div>
 </nav>
 <router-outlet></router-outlet>
