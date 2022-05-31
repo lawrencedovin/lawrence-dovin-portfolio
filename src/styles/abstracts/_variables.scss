@@ -20,7 +20,8 @@ $color-pink--sass: #CD71A5;
 $color-purple--bootstrap: #553C7B;
 
 /* Font-family */
-$font-primary: 'zippy', sans-serif;
+// $font-primary: 'zippy', sans-serif;
+$font-primary: 'Lato', sans-serif;
 $font-secondary: 'Montserrat', sans-serif;
 $font-hero: 'adventium_demoregular', sans-serif;
 
@@ -30,7 +31,8 @@ $font-size-medium: 2.4rem;
 $font-size-small: 1.6rem;
 
 /* Font-weight */
-$bold: 400;
+$medium: 500;
+$regular: 400;
 $light: 300;
 $extra-light: 200;
 
