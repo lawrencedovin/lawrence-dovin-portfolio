@@ -17,17 +17,18 @@
       // display: inline-block;
       // position: relative;
 
-      font-weight: bold;
-      font-size: 14px;
+      font-weight: variables.$light;
+      font-size: variables.$font-size-small;
       text-transform: uppercase;
       text-decoration: none;
-      color: #031D44;
+      color: variables.$color-white;
       padding: 20px 0px;
       margin: 0px 20px;
       display: inline-block;
       position: relative;
       opacity: 0.75;
       &:hover {
+          font-weight: variables.$medium;
           color: variables.$color-blue;
       }
       &::before {
