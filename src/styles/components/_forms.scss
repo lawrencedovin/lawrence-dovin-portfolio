@@ -16,16 +16,17 @@
         &-details {
             font-family: variables.$font-primary;
             color: variables.$color-white;
-            font-weight: variables.$light;
             text-align: left;
             list-style: none;
         }
         &-title {
             font-size: variables.$font-size-medium;
+            font-weight: variables.$medium;
             margin-bottom: 3.2rem;
         }
         &-details {
             font-size: variables.$font-size-small;
+            font-weight: variables.$light;
             &-container {
               margin: 0;
               padding: 0;
@@ -97,10 +98,13 @@
   &__title {
     margin: 0;
     font-size: variables.$font-size-medium;
+    font-weight: variables.$medium;
   }
 
   &__description {
     font-size: variables.$font-size-small;
+    color: variables.$color-grey;
+    font-weight: variables.$light;
 
     &-container {
       margin: .8rem auto 3.2rem;
