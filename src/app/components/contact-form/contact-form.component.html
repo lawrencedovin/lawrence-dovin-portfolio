@@ -21,19 +21,18 @@
         </a>
       </li>
       <li class="contact-form__social">
-        <a href="https://www.linkedin.com/in/lawrence-dovin/" target="_blank" rel="noreferrer">
+        <a href="https://github.com/lawrencedovin" target="_blank" rel="noreferrer">
           <i class="bi bi-github contact-form__social-icons"></i>
         </a>
       </li>
     </ul>
   </div>
-  <!-- <form
-    #form="ngForm"
+  <form
     target="_blank"
     action="https://formsubmit.co/eddcfb2d526e3a057384fb823c55341e"
     method="POST"
     class="contact-form"
-  >
+    >
     <h1 class="contact-form__title">Get in Touch!</h1>
     <div class="contact-form__description-container">
       <span class="contact-form__description">Feel free to <i class="fa-solid fa-droplet contact-form__description-icon"></i> a Message</span>
@@ -45,11 +44,7 @@
         name="fullName"
         placeholder="Full Name"
         required
-        #fullName="ngModel"
-        [ngModel]="details?.fullName"
-        [class.is-invalid]="fullName.invalid && fullName.dirty"
       >
-      <p *ngIf="fullName.errors?.['required'] && fullName.dirty" class="error">Full Name is required.</p>
     </div>
     <div class="contact-form__input-container">
       <input
@@ -58,87 +53,11 @@
         name="email"
         placeholder="Email"
         required
-        #email="ngModel"
-        [ngModel]="details?.email"
-        pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-        [class.is-invalid]="email.invalid && email.dirty"
       >
-      <p *ngIf="email.errors?.['required'] && email.dirty" class="error">Email is required, can't be empty.</p>
-      <p *ngIf="email.errors?.['pattern']" class="error">Email is invalid, needs to be in email format.</p>
     </div>
     <div class="contact-form__input-container">
-      <textarea
-        class="contact-form__text-area form-control required"
-        name="message"
-        placeholder="Your Message"
-        required
-        #message="ngModel"
-        [ngModel]="details?.message"
-      >
-      </textarea>
-      <p *ngIf="message.errors?.['required'] && message.dirty" class="error">Your Message is required.</p>
+      <textarea class="contact-form__text-area form-control" placeholder="Enter Message..." name="message" required rows="7"></textarea>
     </div>
-    <button type="submit" [disabled]="form.invalid" class="contact-form__button btn">SEND MESSAGE</button>
-  </form> -->
-<!-- <form action="https://mailthis.to/lawrencedovin@gmail.com"
-    method="POST">
-    <input type="text" name="name" placeholder="Your name">
-    <input type="email" name="_replyto" placeholder="Your email">
-    <input type="submit" value="Send" (click)="reloadCurrentPage()">
-</form> -->
-
-<form
-  target="_blank"
-  action="https://formsubmit.co/eddcfb2d526e3a057384fb823c55341e"
-  method="POST"
-  class="contact-form"
-  >
-  <h1 class="contact-form__title">Get in Touch!</h1>
-  <div class="contact-form__description-container">
-    <span class="contact-form__description">Feel free to <i class="fa-solid fa-droplet contact-form__description-icon"></i> a Message</span>
-  </div>
-  <div class="contact-form__input-container">
-    <input
-      type="text"
-      class="contact-form__input form-control"
-      name="fullName"
-      placeholder="Full Name"
-      required
-    >
-  </div>
-  <div class="contact-form__input-container">
-    <input
-      type="email"
-      class="contact-form__input form-control"
-      name="email"
-      placeholder="Email"
-      required
-    >
-  </div>
-  <div class="contact-form__input-container">
-    <textarea class="contact-form__text-area form-control" placeholder="Enter Message..." name="message" required rows="7"></textarea>
-  </div>
-  <button type="submit" class="contact-form__button btn">SEND MESSAGE</button>
-</form>
-
-<!-- <div class="container">
-  <h1>FormSubmit Demo</h1>
-  <form target="_blank" action="https://formsubmit.co/eddcfb2d526e3a057384fb823c55341e" method="POST">
-    <div class="form-group">
-      <div class="form-row">
-        <div class="col">
-          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-        </div>
-        <div class="col">
-          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-        </div>
-      </div>
-    </div>
-    <div class="form-group">
-      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
-    </div>
-    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+    <button type="submit" class="contact-form__button btn">SEND MESSAGE</button>
   </form>
-</div> -->
-
 </div>
