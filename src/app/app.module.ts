@@ -10,20 +10,16 @@ import { AppRoutingModule } from './app-routing.module';
 
 // CUSTOM MODULES
 import { SharedModule } from './shared/shared.module';
-import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { PagePreviewComponent } from './components/page-preview/page-preview.component';
-import { HeroComponent } from './components/hero/hero.component';
 import { ContactService } from './services/contact.service';
+import { HomeModule } from './modules/home/home.module';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContactFormComponent,
-    FooterComponent,
-    PagePreviewComponent,
-    HeroComponent
+    FooterComponent
   ],
   imports: [
     // ANGULAR MODULES
@@ -31,9 +27,9 @@ import { ContactService } from './services/contact.service';
     AppRoutingModule,
     // FormsModule,
     // HttpClientModule,
-
     // CUSTOM MODULES
-    SharedModule
+    SharedModule,
+    HomeModule
   ],
   providers: [
     ContactService
