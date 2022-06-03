@@ -106,6 +106,7 @@
 
     &:hover {
         background: variables.$color-blue;
+        cursor: pointer;
         & > #footerButtonIcon {
             filter: invert(100%) sepia(1%) saturate(7500%) hue-rotate(305deg) brightness(106%) contrast(103%);
         }
