@@ -12,6 +12,7 @@
 
   &__text {
       font-size: variables.$font-size-small;
+      font-weight: variables.$light;
       display: inline-flex;
       align-items: center;
   }

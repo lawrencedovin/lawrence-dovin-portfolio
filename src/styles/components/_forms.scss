@@ -71,8 +71,9 @@
   &__text-area {
     width: 32rem;
     font-size: variables.$font-size-small;
+    font-weight: variables.$light;
     color: variables.$color-blue;
-    border: solid 2px variables.$color-grey;
+    border: solid 1px variables.$color-grey;
     resize: none;
 
     &:focus {
@@ -104,7 +105,7 @@
   &__description {
     font-size: variables.$font-size-small;
     color: variables.$color-grey;
-    font-weight: variables.$light;
+    font-weight: variables.$regular;
 
     &-container {
       margin: .8rem auto 3.2rem;
