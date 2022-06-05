@@ -14,6 +14,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { ContactService } from './services/contact.service';
 import { HomeModule } from './modules/home/home.module';
 import { PortfolioModule } from './modules/portfolio/portfolio.module';
+import { ResumeModule } from './modules/resume/resume.module';
 
 
 
@@ -31,7 +32,8 @@ import { PortfolioModule } from './modules/portfolio/portfolio.module';
     // CUSTOM MODULES
     SharedModule,
     HomeModule,
-    PortfolioModule
+    PortfolioModule,
+    ResumeModule
   ],
   providers: [
     ContactService
