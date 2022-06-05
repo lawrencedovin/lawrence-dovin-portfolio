@@ -13,6 +13,7 @@ import { SharedModule } from './shared/shared.module';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ContactService } from './services/contact.service';
 import { HomeModule } from './modules/home/home.module';
+import { PortfolioModule } from './modules/portfolio/portfolio.module';
 
 
 
@@ -29,7 +30,8 @@ import { HomeModule } from './modules/home/home.module';
     // HttpClientModule,
     // CUSTOM MODULES
     SharedModule,
-    HomeModule
+    HomeModule,
+    PortfolioModule
   ],
   providers: [
     ContactService
