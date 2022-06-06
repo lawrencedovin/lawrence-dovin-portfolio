@@ -15,6 +15,7 @@ import { ContactService } from './services/contact.service';
 import { HomeModule } from './modules/home/home.module';
 import { PortfolioModule } from './modules/portfolio/portfolio.module';
 import { ResumeModule } from './modules/resume/resume.module';
+import { AboutModule } from './modules/about/about.module';
 
 
 
@@ -33,7 +34,8 @@ import { ResumeModule } from './modules/resume/resume.module';
     SharedModule,
     HomeModule,
     PortfolioModule,
-    ResumeModule
+    ResumeModule,
+    AboutModule
   ],
   providers: [
     ContactService
