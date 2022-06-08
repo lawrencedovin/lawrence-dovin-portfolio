@@ -16,13 +16,15 @@ import { HomeModule } from './modules/home/home.module';
 import { PortfolioModule } from './modules/portfolio/portfolio.module';
 import { ResumeModule } from './modules/resume/resume.module';
 import { AboutModule } from './modules/about/about.module';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent
+    FooterComponent,
+    TabsComponent
   ],
   imports: [
     // ANGULAR MODULES
