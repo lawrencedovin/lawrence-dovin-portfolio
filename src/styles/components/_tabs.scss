@@ -1,42 +1,59 @@
-.active-link {
+/* Tabs */
+@use '../abstracts/variables';
 
-  &--all {
-    border-color: blue blue #fff !important;
+.nav-link {
+  &-inactive,
+  &-active {
+    padding: .8rem 1.6rem;
+    font-family: variables.$font-primary;
+    font-size: variables.$font-size-small;
+    font-weight: variables.$regular;
   }
 
-  &--javascript {
-
+  &-inactive {
+    color: variables.$color-grey;
   }
 
-  &--angular {
+  &-active {
+    color: variables.$color-black !important;
+    &--all {
+      border-color:  variables.$color-green variables.$color-green variables.$color-white !important;
+    }
 
-  }
+    &--javascript {
+      border-color:  variables.$color-yellow--javascript variables.$color-yellow--javascript variables.$color-white !important;
+    }
 
-  &--react {
+    &--angular {
+      border-color:  variables.$color-red--angular variables.$color-red--angular variables.$color-white !important;
+    }
 
-  }
+    &--react {
+      border-color:  variables.$color-blue--react variables.$color-blue--react variables.$color-white !important;
+    }
 
-  &--nodejs {
+    &--nodejs {
+      border-color:  variables.$color-green--node variables.$color-green--node variables.$color-white !important;
+    }
 
-  }
+    &--express {
+      border-color:  variables.$color-orange--express variables.$color-orange--express variables.$color-white !important;
+    }
 
-  &--express {
+    &--python {
+      border-color:  variables.$color-blue--python variables.$color-blue--python variables.$color-white !important;
+    }
 
-  }
+    &--flask {
+      border-color:  variables.$color-black--flask variables.$color-black--flask variables.$color-white !important;
+    }
 
-  &--python {
+    &--sass {
+      border-color:  variables.$color-pink--sass variables.$color-pink--sass variables.$color-white !important;
+    }
 
-  }
-
-  &--flask {
-
-  }
-
-  &--sass {
-
-  }
-
-  &--bootstrap {
-
+    &--bootstrap {
+      border-color:  variables.$color-purple--bootstrap variables.$color-purple--bootstrap variables.$color-white !important;
+    }
   }
 }
