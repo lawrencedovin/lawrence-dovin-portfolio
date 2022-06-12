@@ -1,10 +1,17 @@
 /* Tabs */
 @use '../abstracts/variables';
 
+.nav-tabs {
+  &__container {
+    display: inline-block;
+  }
+}
+
 .nav-link {
   &-inactive,
   &-active {
     padding: .8rem 1.6rem;
+    border-width: 2px !important;
     font-family: variables.$font-primary;
     font-size: variables.$font-size-small;
     font-weight: variables.$regular;
