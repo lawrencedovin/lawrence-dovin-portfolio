@@ -16,13 +16,17 @@ import { HomeModule } from './modules/home/home.module';
 import { PortfolioModule } from './modules/portfolio/portfolio.module';
 import { ResumeModule } from './modules/resume/resume.module';
 import { AboutModule } from './modules/about/about.module';
+import { ListComponent } from './list/list.component';
+import { ItemComponent } from './item/item.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent
+    FooterComponent,
+    ListComponent,
+    ItemComponent
   ],
   imports: [
     // ANGULAR MODULES
