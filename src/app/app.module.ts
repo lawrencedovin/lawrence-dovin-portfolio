@@ -16,8 +16,8 @@ import { HomeModule } from './modules/home/home.module';
 import { PortfolioModule } from './modules/portfolio/portfolio.module';
 import { ResumeModule } from './modules/resume/resume.module';
 import { AboutModule } from './modules/about/about.module';
-import { ListComponent } from './list/list.component';
-import { ItemComponent } from './item/item.component';
+import { ListComponent } from './components/list/list.component';
+import { ItemComponent } from './components/item/item.component';
 
 
 
