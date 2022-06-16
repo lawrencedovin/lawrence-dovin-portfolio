@@ -1,1 +1,32 @@
 /* List */
+@use '../abstracts/variables';
+.portfolio-project {
+
+  &__container {
+    margin-top: 4rem;
+  }
+
+  &__title {
+    color: variables.$color-black;
+    font-size: variables.$font-size-medium;
+    font-weight: variables.$medium;
+    margin-top: 2.4rem;
+
+  }
+
+  &__technologies {
+    color: variables.$color-blue;
+    font-size: variables.$font-size-small;
+    font-weight: variables.$regular;
+    margin-bottom: 1.6rem;
+  }
+
+  &__description {
+    color: variables.$color-grey;
+    font-size: variables.$font-size-small;
+    font-weight: variables.$light;
+    margin-bottom: 2.4rem;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}

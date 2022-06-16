@@ -5,7 +5,6 @@
   border: none;
   text-align: center;
   font-size: variables.$font-size-small;
-  font-family: variables.$font-primary;
   font-weight: variables.$light;
   text-transform: uppercase;
   padding: 1.2rem;
@@ -13,6 +12,10 @@
   transition: all 0.5s;
   cursor: pointer;
   margin-top: 3.2rem;
+
+  &:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+  }
 }
 
 .btn span {
@@ -89,6 +92,30 @@
       &--portfolio span:after {
         content: '💼';
       }
+  }
+}
+
+.portfolio-project {
+  &__button {
+    background-color: variables.$color-green-light;
+    color: variables.$color-white;
+    margin-top: 0;
+
+    & span {
+      color: variables.$color-white;
+    }
+
+    &--project {
+      margin-right: 1.6rem;
+    }
+
+    &--project span:after {
+      content: '🌐';
+    }
+
+    &--code span:after {
+      content: '👨‍💻';
+    }
   }
 }
 

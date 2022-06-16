@@ -14,7 +14,6 @@
 
         &-title,
         &-details {
-            font-family: variables.$font-primary;
             font-weight: variables.$light;
             color: variables.$color-white;
             text-align: left;
@@ -65,13 +64,11 @@
 
   &__container {
       margin-top: 25.6rem;
-      font-family: variables.$font-primary;
   }
 
   &__input,
   &__text-area {
     width: 32rem;
-    font-family: variables.$font-primary;
     font-size: variables.$font-size-small;
     font-weight: variables.$light;
     color: variables.$color-blue;
