@@ -47,6 +47,10 @@
     background-color: variables.$color-white;
     color: variables.$color-blue;
 
+    &:hover {
+      background-image: none;
+    }
+
     & span {
       color: variables.$color-blue;
     }
