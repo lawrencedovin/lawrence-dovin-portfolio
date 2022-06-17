@@ -4,14 +4,20 @@ import { HomeComponent } from './modules/home/home/home.component';
 import { PortfolioComponent } from './modules/portfolio/portfolio/portfolio.component';
 import { ResumeComponent } from './modules/resume/resume/resume.component';
 import { AboutComponent } from './modules/about/about/about.component';
+import { ListComponent } from './components/list/list.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
   // { path: 'portfolio', component: PortfolioComponent },
-  { path: 'portfolio', component: PortfolioComponent, children: [
+  // { path: 'portfolio', component: PortfolioComponent, children: [
+  //   { path: '', redirectTo: 'all', pathMatch: 'full'},
+  //   { path: ':technology', component: PortfolioComponent}
+  // ] },
+  { path: 'portfolio', component: TabsComponent, children: [
     { path: '', redirectTo: 'all', pathMatch: 'full'},
-    { path: ':technology', component: PortfolioComponent}
+    { path: ':technology', component: ListComponent}
   ] },
   { path: 'resume', component: ResumeComponent },
   { path: 'about', component: AboutComponent },
