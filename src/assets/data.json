@@ -49,5 +49,20 @@
     "image": "wonder-recipe.gif",
     "websiteURL": "https://wonder-recipe.herokuapp.com/",
     "codeURL": "https://github.com/lawrencedovin/capstone-1-wonder-recipe"
+  },
+  {
+    "title": "Bark",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "Express",
+      "Node.js",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "Dog adoption website which discovers 100,000s of actively available dogs from the petfinder API. Where users can find their new best friend filtering by their location and breed.",
+    "image": "bark.gif",
+    "codeURL": "https://github.com/lawrencedovin/capstone-2-bark"
   }
 ]
