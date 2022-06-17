@@ -10,11 +10,6 @@ import { TabsComponent } from './components/tabs/tabs.component';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
-  // { path: 'portfolio', component: PortfolioComponent },
-  // { path: 'portfolio', component: PortfolioComponent, children: [
-  //   { path: '', redirectTo: 'all', pathMatch: 'full'},
-  //   { path: ':technology', component: PortfolioComponent}
-  // ] },
   { path: 'portfolio', component: TabsComponent, children: [
     { path: '', redirectTo: 'all', pathMatch: 'full'},
     { path: ':technology', component: ListComponent}
