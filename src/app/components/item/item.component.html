@@ -9,13 +9,13 @@
       <div class="row ">
         <div class="col">
           <a href='{{ project.websiteURL }}'
-             *ngIf="project.projectAvailable"
+             *ngIf="project.websiteURL"
              class="portfolio-project__button portfolio-project__button--project btn"
              target="_blank">
             <span>Website</span>
           </a>
           <a href='{{ project.codeURL }}'
-             *ngIf="project.codeAvailable"
+             *ngIf="project.codeURL"
              class="portfolio-project__button portfolio-project__button--code btn"
              target="_blank">
             <span>Code</span>

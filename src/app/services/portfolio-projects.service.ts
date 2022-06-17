@@ -17,8 +17,6 @@ export class PortfolioProjectService {
       ],
       description: 'Qwikwire’s revamped landing page which was designed and organized to allow the visitor to understand Qwikwire’s business model efficiently in a single page website.',
       image: 'qwikwire-landing-page.gif',
-      projectAvailable: true,
-      codeAvailable: false,
       websiteURL: 'https://qwikwire.com/'
     }
   ]
