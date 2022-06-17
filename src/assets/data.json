@@ -34,5 +34,20 @@
     ],
     "description": "The Payment Portals allow oversea workers that have plans to retire in the Philippines from the US to make cross-border payments for their property payments directly to the property client which eliminates the need for a middleman to pay on the oversea worker’s behalf.",
     "image": "qwikwire-payment-portal.jpg"
+  },
+  {
+    "title": "Wonder Recipe",
+    "technologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "Wonder Recipe allows users who want to discover recipes to do so conveniently from the website all the way to the grocery store. Over 550 Recipes extracted from spoonacular API including recipe details such as cuisine, diet, ingredients, macros, and cooking directions.",
+    "image": "wonder-recipe.gif",
+    "websiteURL": "https://wonder-recipe.herokuapp.com/",
+    "codeURL": "https://github.com/lawrencedovin/capstone-1-wonder-recipe"
   }
 ]
