@@ -8,10 +8,10 @@ export class PortfolioProjectService {
   private projects = [
     {
       title: 'Qwikwire\'s Landing Page',
-      // technologies: 'AngularJS 1.6 | Angular Material | HTML | CSS',
       technologies: [
         'AngularJS 1.6',
         'Angular Material',
+        'JavaScript',
         'HTML',
         'CSS'
       ],
@@ -23,14 +23,47 @@ export class PortfolioProjectService {
   ]
 
   getProjects(chosenTechnology: string) {
-    if(chosenTechnology === 'all') {
-      return this.projects.slice();
+    switch(chosenTechnology) {
+      case 'all':
+        return this.projects.slice();
+      case 'javascript':
+        return this.projects.filter((project) => {
+          return project.technologies.includes("JavaScript");
+        })
+      case 'angular':
+        return this.projects.filter((project) => {
+          return project.technologies.includes("AngularJS 1.6") || project.technologies.includes("AngularJS 13");
+        })
+      case 'react':
+        return this.projects.filter((project) => {
+          return project.technologies.includes("React");
+        })
+      case 'nodejs':
+        return this.projects.filter((project) => {
+          return project.technologies.includes("Node.js");
+        })
+      case 'express':
+      return this.projects.filter((project) => {
+        return project.technologies.includes("Express");
+      })
+      case 'python':
+      return this.projects.filter((project) => {
+        return project.technologies.includes("Python");
+      })
+      case 'flask':
+      return this.projects.filter((project) => {
+        return project.technologies.includes("Flask");
+      })
+      case 'sass':
+      return this.projects.filter((project) => {
+        return project.technologies.includes("Sass SCSS");
+      })
+      case 'bootstrap':
+      return this.projects.filter((project) => {
+        return project.technologies.includes("Bootstrap");
+      })
+      default:
+        return this.projects.slice();
     }
-    return this.projects.slice();
-    // if(chosenTechnology === 'angular') {
-    //   return this.projects.filter((project) => {
-
-    //   })
-    // }
   }
 }
