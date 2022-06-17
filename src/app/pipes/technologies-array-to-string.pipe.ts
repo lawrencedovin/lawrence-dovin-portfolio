@@ -1,9 +1,9 @@
 import { Pipe, PipeTransform } from "@angular/core";
 
 @Pipe({
-  name: "arrayToString"
+  name: "technologiesArrayToString"
 })
-export class ArrayToStringPipe implements PipeTransform {
+export class TechnologiesArrayToStringPipe implements PipeTransform {
   transform(technologies: Array<string>): string {
     return technologies.join(' | ')
   }

@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 import { TabsComponent } from 'src/app/components/tabs/tabs.component';
 import { ListComponent } from 'src/app/components/list/list.component';
 import { ItemComponent } from 'src/app/components/item/item.component';
-import { ArrayToStringPipe } from 'src/app/pipes/array-to-string.pipe';
+import { TechnologiesArrayToStringPipe } from 'src/app/pipes/technologies-array-to-string.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { ArrayToStringPipe } from 'src/app/pipes/array-to-string.pipe';
     ListComponent,
     ItemComponent,
     // CUSTOM PIPE
-    ArrayToStringPipe
+    TechnologiesArrayToStringPipe
   ],
   imports: [
     CommonModule,
