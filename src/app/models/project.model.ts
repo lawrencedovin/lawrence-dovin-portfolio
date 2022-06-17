@@ -4,5 +4,7 @@ export interface Project {
   description: string,
   image: string,
   projectAvailable: boolean,
-  codeAvailable: boolean
+  codeAvailable: boolean,
+  websiteURL?: string,
+  codeURL?: string
 }

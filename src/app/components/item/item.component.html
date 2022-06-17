@@ -8,8 +8,18 @@
       <p class="portfolio-project__description">{{ project.description }}</p>
       <div class="row ">
         <div class="col">
-          <a href="#" *ngIf="project.projectAvailable" class="portfolio-project__button portfolio-project__button--project btn"><span>Website</span></a>
-          <a href="#" *ngIf="project.codeAvailable" class="portfolio-project__button portfolio-project__button--code btn"><span>Code</span></a>
+          <a href='{{ project.websiteURL }}'
+             *ngIf="project.projectAvailable"
+             class="portfolio-project__button portfolio-project__button--project btn"
+             target="_blank">
+            <span>Website</span>
+          </a>
+          <a href='{{ project.codeURL }}'
+             *ngIf="project.codeAvailable"
+             class="portfolio-project__button portfolio-project__button--code btn"
+             target="_blank">
+            <span>Code</span>
+          </a>
         </div>
       </div>
     </div>
