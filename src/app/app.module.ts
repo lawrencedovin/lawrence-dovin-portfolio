@@ -18,7 +18,6 @@ import { ResumeModule } from './modules/resume/resume.module';
 import { AboutModule } from './modules/about/about.module';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,8 +27,6 @@ import { AboutModule } from './modules/about/about.module';
     // ANGULAR MODULES
     BrowserModule,
     AppRoutingModule,
-    // FormsModule,
-    // HttpClientModule,
     // CUSTOM MODULES
     SharedModule,
     HomeModule,

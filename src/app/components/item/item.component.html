@@ -4,7 +4,7 @@
     <div class="col-md-6 text-center portfolio-project__container">
       <img src='../../../assets/images/previous-projects/images/{{ project.image }}' alt="">
       <h1 class="portfolio-project__title">{{ project.title }}</h1>
-      <h2 class="portfolio-project__technologies">{{ project.technologies }}</h2>
+      <h2 class="portfolio-project__technologies">{{ project.technologies | arrayToString }}</h2>
       <p class="portfolio-project__description">{{ project.description }}</p>
       <div class="row ">
         <div class="col">

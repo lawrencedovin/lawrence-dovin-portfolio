@@ -1,6 +1,6 @@
 export interface Project {
   title: string,
-  technologies: string,
+  technologies: Array<string>,
   description: string,
   image: string,
   projectAvailable: boolean,
