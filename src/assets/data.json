@@ -1,16 +1,38 @@
 [
-    {
-        "title": "Qwikwire's Landing Page",
-        "technologies": [
-          "AngularJS 1.6",
-          "Angular Material",
-          "JavaScript",
-          "HTML",
-          "CSS"
-        ],
-        "description": "Qwikwire’s revamped landing page which was designed and organized to allow the visitor to understand Qwikwire’s business model efficiently in a single page website.",
-        "image": "qwikwire-landing-page.gif",
-        "websiteURL": "https://qwikwire.com/"
-    }
-
-  ]
+  {
+      "title": "Qwikwire's Landing Page",
+      "technologies": [
+        "AngularJS 1.6",
+        "Angular Material",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "description": "Qwikwire’s revamped landing page which was designed and organized to allow the visitor to understand Qwikwire’s business model efficiently in a single page website.",
+      "image": "qwikwire-landing-page.gif",
+      "websiteURL": "https://qwikwire.com/"
+  },
+  {
+    "title": "Qwikwire's Consumers Dashboard",
+    "technologies": [
+      "AngularJS 1.X",
+      "Angular Material",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "description": "The Consumers Dashboard is a tool that condenses all the payments transactions along with their statuses into one platform. It allows customers to manage their transactions and refunds between property clients.",
+    "image": "qwikwire-consumers-dashboard.jpg"
+  },
+  {
+    "title": "Qwikwire's Payment Portals",
+    "technologies": [
+      "AngularJS 1.X",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "description": "The Payment Portals allow oversea workers that have plans to retire in the Philippines from the US to make cross-border payments for their property payments directly to the property client which eliminates the need for a middleman to pay on the oversea worker’s behalf.",
+    "image": "qwikwire-payment-portal.jpg"
+  }
+]
