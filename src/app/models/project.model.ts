@@ -2,6 +2,7 @@ export interface Project {
   title: string,
   technologies: string,
   description: string,
-  project: boolean,
-  code: boolean
+  image: string,
+  projectAvailable: boolean,
+  codeAvailable: boolean
 }

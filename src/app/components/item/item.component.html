@@ -1,1 +1,17 @@
-<p>item works!</p>
+
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-6 text-center portfolio-project__container">
+      <img src='../../../assets/images/previous-projects/images/{{ project.image }}' alt="">
+      <h1 class="portfolio-project__title">{{ project.title }}</h1>
+      <h2 class="portfolio-project__technologies">{{ project.technologies }}</h2>
+      <p class="portfolio-project__description">{{ project.description }}</p>
+      <div class="row ">
+        <div class="col">
+          <a href="#" *ngIf="project.projectAvailable" class="portfolio-project__button portfolio-project__button--project btn"><span>Website</span></a>
+          <a href="#" *ngIf="project.codeAvailable" class="portfolio-project__button portfolio-project__button--code btn"><span>Code</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

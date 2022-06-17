@@ -5,12 +5,14 @@ import { AppRoutingModule } from 'src/app/app-routing.module';
 import { RouterModule } from '@angular/router';
 import { TabsComponent } from 'src/app/components/tabs/tabs.component';
 import { ListComponent } from 'src/app/components/list/list.component';
+import { ItemComponent } from 'src/app/components/item/item.component';
 
 @NgModule({
   declarations: [
     PortfolioComponent,
     TabsComponent,
-    ListComponent
+    ListComponent,
+    ItemComponent
   ],
   imports: [
     CommonModule,
