@@ -91,6 +91,20 @@
     "image": "connect-four.gif",
     "websiteURL": "https://lawrencedovin.github.io/connect-four/",
     "codeURL": "https://github.com/lawrencedovin/connect-four"
+  },
+
+  {
+    "title": "Memory Game",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "Memory game where you try to match cards with the least amount of turns.",
+    "image": "memory-game.gif",
+    "websiteURL": "https://lawrencedovin.github.io/memory-game/",
+    "codeURL": "https://github.com/lawrencedovin/memory-game"
   }
 
 ]
