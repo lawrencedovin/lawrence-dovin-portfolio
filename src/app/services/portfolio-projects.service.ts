@@ -20,7 +20,7 @@ export class PortfolioProjectService {
         })
       case 'angular':
         return this.projects.filter((project) => {
-          return project.technologies.includes("AngularJS 1.6") || project.technologies.includes("AngularJS 13") || project.technologies.includes("AngularJS 1.X");
+          return project.technologies.includes("AngularJS 1.6") || project.technologies.includes("Angular 13") || project.technologies.includes("AngularJS 1.X");
         })
       case 'react':
         return this.projects.filter((project) => {

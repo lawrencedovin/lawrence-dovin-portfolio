@@ -92,7 +92,6 @@
     "websiteURL": "https://lawrencedovin.github.io/connect-four/",
     "codeURL": "https://github.com/lawrencedovin/connect-four"
   },
-
   {
     "title": "Memory Game",
     "technologies": [
@@ -105,6 +104,19 @@
     "image": "memory-game.gif",
     "websiteURL": "https://lawrencedovin.github.io/memory-game/",
     "codeURL": "https://github.com/lawrencedovin/memory-game"
+  },
+  {
+    "title": "To-do List",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "A simple to-do list where users add, strike off and delete tasks.",
+    "image": "to-do.gif",
+    "websiteURL": "https://lawrencedovin.github.io/to-do/",
+    "codeURL": "https://github.com/lawrencedovin/to-do"
   }
 
 ]
