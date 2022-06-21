@@ -130,5 +130,16 @@
     "image": "jeopardy.gif",
     "websiteURL": "https://lawrencedovin.github.io/jeopardy/",
     "codeURL": "https://github.com/lawrencedovin/jeopardy"
+  },
+  {
+    "title": "Nexter",
+    "technologies": [
+      "HTML",
+      "Sass SCSS"
+    ],
+    "description": "Real Estate Website which is the Final Project following the Advanced CSS and Sass Course using CSS Grid.",
+    "image": "jeopardy.gif",
+    "websiteURL": "https://lawrencedovin.github.io/nexter/",
+    "codeURL": "https://github.com/lawrencedovin/nexter"
   }
 ]
