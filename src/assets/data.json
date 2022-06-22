@@ -138,8 +138,19 @@
       "Sass SCSS"
     ],
     "description": "Real Estate Website which is the Final Project following the Advanced CSS and Sass Course using CSS Grid.",
-    "image": "jeopardy.gif",
+    "image": "nexter.gif",
     "websiteURL": "https://lawrencedovin.github.io/nexter/",
     "codeURL": "https://github.com/lawrencedovin/nexter"
+  },
+  {
+    "title": "Natours",
+    "technologies": [
+      "HTML",
+      "Sass SCSS"
+    ],
+    "description": "Adventure Tours Website following the Advanced CSS and Sass Course using CSS Grid.",
+    "image": "natours.gif",
+    "websiteURL": "https://lawrencedovin.github.io/natours/",
+    "codeURL": "https://github.com/lawrencedovin/natours"
   }
 ]
