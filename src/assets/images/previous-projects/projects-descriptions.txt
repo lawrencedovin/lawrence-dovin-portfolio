@@ -46,6 +46,12 @@ A simple to-do list where users add, strike off and delete tasks.
 https://lawrencedovin.github.io/to-do/
 https://github.com/lawrencedovin/to-do
 
+Meme Generator X
+JavaScript/HTML/CSS/Bootstrap
+User generates their own customized memes by adding their image and caption.
+https://lawrencedovin.github.io/meme-generator/
+https://github.com/lawrencedovin/meme-generator
+
 Jeopardy! X
 JavaScript/HTML/Sass SCSS/Bootstrap
 Jeopardy is based on a famous American Quiz Show. Where participants answer categorical questions for money.
@@ -67,7 +73,9 @@ https://github.com/lawrencedovin/natours
 Gospel Bookmarks
 
 Meme Generator
+details
 
+Forex Converter
 
 
 

@@ -84,7 +84,7 @@
     "technologies": [
       "JavaScript",
       "HTML",
-      "Sass SCSS",
+      "CSS",
       "Bootstrap"
     ],
     "description": "2-player Board Game where each user has a different colored disk. The users take turns dropping their disks to connect 4 of their adjacent disks to win. ",
@@ -97,7 +97,7 @@
     "technologies": [
       "JavaScript",
       "HTML",
-      "Sass SCSS",
+      "CSS",
       "Bootstrap"
     ],
     "description": "Memory game where you try to match cards with the least amount of turns.",
@@ -110,13 +110,26 @@
     "technologies": [
       "JavaScript",
       "HTML",
-      "Sass SCSS",
+      "CSS",
       "Bootstrap"
     ],
     "description": "A simple to-do list where users add, strike off and delete tasks.",
     "image": "to-do.gif",
     "websiteURL": "https://lawrencedovin.github.io/to-do/",
     "codeURL": "https://github.com/lawrencedovin/to-do"
+  },
+  {
+    "title": "Meme Generator",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "description": "User generates their own customized memes by adding their image and caption.",
+    "image": "meme-generator.gif",
+    "websiteURL": "https://lawrencedovin.github.io/meme-generator/",
+    "codeURL": "https://github.com/lawrencedovin/meme-generator"
   },
   {
     "title": "Jeopardy!",
