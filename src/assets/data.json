@@ -145,6 +145,19 @@
     "codeURL": "https://github.com/lawrencedovin/jeopardy"
   },
   {
+    "title": "Gospel Bookmarks",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "Gospel Bookmarks allows the user to print free colored and black and white Christian animal bookmarks in 8 different languages.",
+    "image": "gospel-bookmarks.gif",
+    "websiteURL": "https://lawrencedovin.github.io/gospel-bookmarks/",
+    "codeURL": "https://github.com/lawrencedovin/gospel-bookmarks"
+  },
+  {
     "title": "Nexter",
     "technologies": [
       "HTML",
