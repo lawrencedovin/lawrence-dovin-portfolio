@@ -13,7 +13,7 @@
   &-inactive,
   &-active {
     padding: .8rem 1.6rem;
-    border-width: 2px !important;
+    border-width: 1px !important;
     font-family: variables.$font-primary;
     font-size: variables.$font-size-small;
     font-weight: variables.$regular;
@@ -101,7 +101,8 @@
     }
 
     &--sass {
-      background: variables.$color-pink--sass !important;
+      // background: variables.$color-pink--sass !important;
+      background: linear-gradient(0deg, rgba(205,113,165,1) 0%, rgba(231,0,130,1) 100%) !important;
       &:hover,
       &:focus {
         background: variables.$color-pink--sass !important;
