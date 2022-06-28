@@ -10,6 +10,7 @@ import { ItemComponent } from 'src/app/components/item/item.component';
 import { TechnologiesArrayToStringPipe } from 'src/app/pipes/technologies-array-to-string.pipe';
 import { InfiniteScrollModule } from "ngx-infinite-scroll";
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     AppRoutingModule,
     RouterModule,
     InfiniteScrollModule,
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    BrowserAnimationsModule
   ],
   exports: [
     PortfolioComponent

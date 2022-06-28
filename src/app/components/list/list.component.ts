@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnChanges } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PortfolioProjectService } from 'src/app/services/portfolio-projects.service';
 import { Project } from 'src/app/models/project.model';
 import { NgxSpinnerService } from 'ngx-spinner';
+import { timeout } from 'rxjs';
 
 @Component({
   selector: 'app-list',
@@ -11,60 +12,56 @@ import { NgxSpinnerService } from 'ngx-spinner';
 })
 export class ListComponent implements OnInit {
 
-  notEmptyPost = true;
-  notscrolly = true;
+  sum = 5;
+  throttle = 300;
+  scrollDistance = 1;
 
+  currentProjects: Project[] = [];
   // Gets projects from tabs
-  projects: Array<Project>;
+  allProjects: Array<Project>;
 
   constructor(private activatedRoute: ActivatedRoute,
               private portfolioProjectService: PortfolioProjectService,
-              private spinner: NgxSpinnerService) { }
+              private spinner: NgxSpinnerService)
+  {}
 
   ngOnInit(): void {
-    this.loadInitPost();
+    this.loadInitProjects();
   }
 
-  loadInitPost() {
+  loadInitProjects() {
     this.activatedRoute.params.subscribe(
       // (params) is a function which receives the updated params which we can now handle
       // the (params) function will get executed evertime params changes
       (params) => {
         // used to load our data
-        this.projects = this.portfolioProjectService.getProjects(params['technology']);
+        this.allProjects = this.portfolioProjectService.getProjects(params['technology']);
+        this.appendItems(0, this.sum);
       }
     );
   }
 
-  // loadNextPost() {
-  //   const url = 'http://tlino.96.lt/api/getnextpost';
-  //   // return last post from the array
-  //   const lastPost = this.allpost[this.allpost.length - 1];
-  //   // get id of last post
-  //   const lastPostId = lastPost.id;
-  //   // sent this id as key value pare using formdata()
-  //   const dataToSend = new FormData();
-  //   dataToSend.append('id', lastPostId);
-  //   // call http request
-  //   this.http.post(url, dataToSend)
-  //   .subscribe( (data: any) => {
-  //      const newPost = data[0];
-  //      this.spinner.hide();
-  //      if (newPost.length === 0 ) {
-  //        this.notEmptyPost =  false;
-  //      }
-  //      // add newly fetched posts to the existing post
-  //      this.allpost = this.allpost.concat(newPost);
-  //      this.notscrolly = true;
-  //    });
-  // }
+  addItems(startIndex: number, endIndex: number) {
+    if(endIndex >= this.allProjects.length) endIndex = this.allProjects.length;
+    if(startIndex >= this.allProjects.length) startIndex = 0;
+    this.currentProjects = this.allProjects.slice(0, endIndex);
 
-  // onScroll() {
-  //   if (this.notscrolly && this.notEmptyPost) {
-  //     this.spinner.show();
-  //     this.notscrolly = false;
-  //     this.loadNextPost();
-  //    }
-  // }
+
+  }
+
+  appendItems(startIndex: number, endIndex: number) {
+    this.addItems(startIndex, endIndex);
+  }
+
+  onScrollDown() {
+    // add another 5 items
+    const start = this.sum;
+    this.sum += 5;
+    this.appendItems(start, this.sum);
+    // this.spinner.show();
+    // setTimeout(() => {
+    //   this.spinner.hide();
+    // }, 250);
+  }
 
 }
