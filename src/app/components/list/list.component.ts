@@ -10,6 +10,11 @@ import { Project } from 'src/app/models/project.model';
 })
 export class ListComponent implements OnInit {
 
+
+  onScroll() {
+    console.log("scrolled!!");
+  }
+
   // Gets projects from tabs
   projects: Array<Project>;
 
