@@ -45,8 +45,6 @@ export class ListComponent implements OnInit {
     if(endIndex >= this.allProjects.length) endIndex = this.allProjects.length;
     if(startIndex >= this.allProjects.length) startIndex = 0;
     this.currentProjects = this.allProjects.slice(0, endIndex);
-
-
   }
 
   appendItems(startIndex: number, endIndex: number) {

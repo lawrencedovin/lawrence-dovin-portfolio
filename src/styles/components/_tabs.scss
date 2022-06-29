@@ -85,29 +85,33 @@
     }
 
     &--python {
-      background: variables.$color-blue--python !important;
+      background: linear-gradient(0deg, rgb(30, 208, 217) 0%,  variables.$color-blue--python 100%) !important;
+      border-color: variables.$color-blue--python !important;
       &:hover,
       &:focus {
-        background: variables.$color-blue--python !important;
+        background: linear-gradient(0deg, rgb(30, 208, 217) 0%,  variables.$color-blue--python 100%) !important;
         border-color: variables.$color-blue--python !important;
       }
     }
 
     &--flask {
-      background: variables.$color-black--flask !important;
+      background: linear-gradient(0deg, #00a919 0%, variables.$color-black--flask 100%) !important;
+      border-color: variables.$color-black--flask !important;
       &:hover,
       &:focus {
-        background: variables.$color-black--flask !important;
+        background: linear-gradient(0deg, #00a919 0%, variables.$color-black--flask 100%) !important;
         border-color: variables.$color-black--flask !important;
       }
     }
 
     &--sass {
-      // background: variables.$color-pink--sass !important;
-      background: linear-gradient(0deg, rgba(205,113,165,1) 0%, rgba(231,0,130,1) 100%) !important;
+      background: linear-gradient(0deg, variables.$color-pink--sass 0%, rgb(165, 0, 94) 100%) !important;
+
+      border-color: variables.$color-pink--sass !important;
       &:hover,
       &:focus {
-        background: variables.$color-pink--sass !important;
+        background: linear-gradient(0deg, variables.$color-pink--sass 0%, rgb(165, 0, 94) 100%) !important;
+
         border-color: variables.$color-pink--sass !important;
       }
     }
