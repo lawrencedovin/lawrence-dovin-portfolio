@@ -9,8 +9,6 @@
   }
 }
 
-// https://cssgradient.io/
-
 .nav-link {
   &-inactive,
   &-active {
@@ -85,33 +83,29 @@
     }
 
     &--python {
-      background: linear-gradient(0deg, rgb(30, 208, 217) 0%,  variables.$color-blue--python 100%) !important;
+      background: variables.$color-blue--python !important;
       border-color: variables.$color-blue--python !important;
       &:hover,
       &:focus {
-        background: linear-gradient(0deg, rgb(30, 208, 217) 0%,  variables.$color-blue--python 100%) !important;
+        background: variables.$color-blue--python !important;
         border-color: variables.$color-blue--python !important;
       }
     }
 
     &--flask {
-      background: linear-gradient(0deg, #00a919 0%, variables.$color-black--flask 100%) !important;
-      border-color: variables.$color-black--flask !important;
+      background: variables.$color-black--flask !important;
       &:hover,
       &:focus {
-        background: linear-gradient(0deg, #00a919 0%, variables.$color-black--flask 100%) !important;
+        background: variables.$color-black--flask !important;
         border-color: variables.$color-black--flask !important;
       }
     }
 
     &--sass {
-      background: linear-gradient(0deg, variables.$color-pink--sass 0%, rgb(165, 0, 94) 100%) !important;
-
-      border-color: variables.$color-pink--sass !important;
+      background: variables.$color-pink--sass !important;
       &:hover,
       &:focus {
-        background: linear-gradient(0deg, variables.$color-pink--sass 0%, rgb(165, 0, 94) 100%) !important;
-
+        background: variables.$color-pink--sass !important;
         border-color: variables.$color-pink--sass !important;
       }
     }
