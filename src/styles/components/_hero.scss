@@ -1,5 +1,7 @@
 /* Hero */
 @use '../abstracts/variables';
+@use '../abstracts/mixins';
+
 .hero {
   height: calc(100vh - 9.8rem);
   min-width: 100%;
@@ -17,6 +19,9 @@
       bottom: 0;
       background: variables.$color-white;
       clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+      @include mixins.respond(tablet-landscape) { // width < 1200?
+        clip-path: polygon(100% 100%, 100% 100%, 100% 100%);
+      }
       height: calc(100vh - 9.8rem + .8px);
   }
 
@@ -43,6 +48,9 @@
       top: 40%;
       transform: translateY(-50%);
       width: 30rem;
+      @include mixins.respond(tablet-landscape) { // width < 1200?
+        @include mixins.center-absolute;
+      }
   }
 
   &__name,
@@ -85,5 +93,8 @@
       top: 40.5%;
       transform: translateY(-50%);
       left: 40vw;
+      @include mixins.respond(tablet-landscape) { // width < 1200?
+        max-height: 0;
+      }
   }
 }
