@@ -41,6 +41,7 @@
       "Python",
       "Flask",
       "JavaScript",
+      "Node.js",
       "HTML",
       "Sass SCSS",
       "Bootstrap"
@@ -71,6 +72,7 @@
       "Python",
       "Flask",
       "JavaScript",
+      "Node.js",
       "HTML",
       "Sass SCSS"
     ],
@@ -148,6 +150,7 @@
     "title": "Gospel Bookmarks",
     "technologies": [
       "JavaScript",
+      "Node.js",
       "HTML",
       "Sass SCSS",
       "Bootstrap"
@@ -160,6 +163,7 @@
   {
     "title": "Nexter",
     "technologies": [
+      "Node.js",
       "HTML",
       "Sass SCSS"
     ],
@@ -171,6 +175,7 @@
   {
     "title": "Natours",
     "technologies": [
+      "Node.js",
       "HTML",
       "Sass SCSS"
     ],
@@ -196,6 +201,7 @@
     "technologies": [
       "AngularJS 14",
       "JavaScript",
+      "Node.js",
       "HTML",
       "Sass SCSS",
       "Bootstrap"
