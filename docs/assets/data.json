@@ -190,5 +190,19 @@
     "image": "tindog.gif",
     "websiteURL": "https://lawrencedovin.github.io/tindog/",
     "codeURL": "https://github.com/lawrencedovin/tindog"
+  },
+  {
+    "title": "Portfolio Website",
+    "technologies": [
+      "AngularJS 14",
+      "JavaScript",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "Portfolio Website which showcases the projects Lawrence worked on over the years.",
+    "image": "portfolio-website.gif",
+    "websiteURL": "https://lawrencedovin.github.io/lawrence-dovin-portfolio/ ",
+    "codeURL": "https://github.com/lawrencedovin/lawrence-dovin-portfolio"
   }
 ]
