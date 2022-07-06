@@ -178,5 +178,17 @@
     "image": "natours.gif",
     "websiteURL": "https://lawrencedovin.github.io/natours/",
     "codeURL": "https://github.com/lawrencedovin/natours"
+  },
+  {
+    "title": "TinDog",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "description": "Dog dating website following The Complete 2020 Web Development Bootcamp.",
+    "image": "tindog.gif",
+    "websiteURL": "https://lawrencedovin.github.io/tindog/",
+    "codeURL": "https://github.com/lawrencedovin/tindog"
   }
 ]
