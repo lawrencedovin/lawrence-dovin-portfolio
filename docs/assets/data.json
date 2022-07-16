@@ -188,7 +188,9 @@
       "Sass SCSS",
       "Bootstrap"
     ],
-    "description": "Portfolio Website which displays Lawrence's previous projects over the years.",
-    "image": "portfolio-website.gif"
+    "description": "Portfolio Website which displays Lawrence's projects over the years.",
+    "image": "portfolio-website.gif",
+    "websiteURL": "https://lawrencedovin.github.io/lawrence-dovin-portfolio/",
+    "codeURL": "https://github.com/lawrencedovin/lawrence-dovin-portfolio"
   }
 ]
