@@ -41,7 +41,6 @@
       "Python",
       "Flask",
       "JavaScript",
-      "Node.js",
       "HTML",
       "Sass SCSS",
       "Bootstrap"
@@ -72,7 +71,6 @@
       "Python",
       "Flask",
       "JavaScript",
-      "Node.js",
       "HTML",
       "Sass SCSS"
     ],
@@ -150,7 +148,6 @@
     "title": "Gospel Bookmarks",
     "technologies": [
       "JavaScript",
-      "Node.js",
       "HTML",
       "Sass SCSS",
       "Bootstrap"
@@ -163,7 +160,6 @@
   {
     "title": "Nexter",
     "technologies": [
-      "Node.js",
       "HTML",
       "Sass SCSS"
     ],
@@ -175,7 +171,6 @@
   {
     "title": "Natours",
     "technologies": [
-      "Node.js",
       "HTML",
       "Sass SCSS"
     ],
@@ -185,30 +180,15 @@
     "codeURL": "https://github.com/lawrencedovin/natours"
   },
   {
-    "title": "TinDog",
-    "technologies": [
-      "HTML",
-      "CSS",
-      "Bootstrap"
-    ],
-    "description": "Dog dating website following The Complete 2020 Web Development Bootcamp.",
-    "image": "tindog.gif",
-    "websiteURL": "https://lawrencedovin.github.io/tindog/",
-    "codeURL": "https://github.com/lawrencedovin/tindog"
-  },
-  {
     "title": "Portfolio Website",
     "technologies": [
       "AngularJS 14",
       "JavaScript",
-      "Node.js",
       "HTML",
       "Sass SCSS",
       "Bootstrap"
     ],
-    "description": "Portfolio Website which showcases the projects Lawrence worked on over the years.",
-    "image": "portfolio-website.gif",
-    "websiteURL": "https://lawrencedovin.github.io/lawrence-dovin-portfolio/ ",
-    "codeURL": "https://github.com/lawrencedovin/lawrence-dovin-portfolio"
+    "description": "Portfolio Website which displays Lawrence's previous projects over the years.",
+    "image": "portfolio-website.gif"
   }
 ]
