@@ -182,7 +182,7 @@
   {
     "title": "Portfolio Website",
     "technologies": [
-      "AngularJS 14",
+      "Angular 14",
       "JavaScript",
       "HTML",
       "Sass SCSS",
@@ -191,6 +191,6 @@
     "description": "Portfolio Website which displays Lawrence's projects over the years.",
     "image": "portfolio-website.gif",
     "websiteURL": "https://lawrencedovin.github.io/lawrence-dovin-portfolio/",
-    "codeURL": "https://github.com/lawrencedovin/lawrence-dovin-portfolio"
+    "codeURL": "https://github.com/lawrencedovin/natours"
   }
 ]
