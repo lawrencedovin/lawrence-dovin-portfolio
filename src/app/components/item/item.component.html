@@ -1,26 +1,22 @@
-
 <div class="container">
   <div class="row d-flex justify-content-center">
     <div class="col-md-6 text-center portfolio-project__container">
-      <!-- <img class="portfolio-project__image" src='../../../assets/images/previous-projects/images/{{ project.image }}' alt=""> -->
-      <img class="portfolio-project__image" src='assets/images/previous-projects/images/{{ project.image }}' alt="">
+      <img class="portfolio-project__image" src='assets/images/previous-projects/images/{{ project.image }}' alt='image of {{ project.image }}'>
       <h1 class="portfolio-project__title">{{ project.title }}</h1>
       <h2 class="portfolio-project__technologies">{{ project.technologies | technologiesArrayToString }}</h2>
       <p class="portfolio-project__description">{{ project.description }}</p>
       <div class="row ">
         <div class="col">
-          <a href='{{ project.websiteURL }}'
-              *ngIf="project.websiteURL"
-              class="portfolio-project__button portfolio-project__button--project btn"
-              target="_blank">
-            <span>Website</span>
-          </a>
-          <a href='{{ project.codeURL }}'
-              *ngIf="project.codeURL"
-              class="portfolio-project__button portfolio-project__button--code btn"
-              target="_blank">
-            <span>Code</span>
-          </a>
+          <app-portfolio-button
+            URL="{{ project.websiteURL }}"
+            class="portfolio-project__button--project"
+            btnName="Website">
+          </app-portfolio-button>
+          <app-portfolio-button
+            URL="{{ project.codeURL }}"
+            class="portfolio-project__button--code"
+            btnName="Code">
+          </app-portfolio-button>
         </div>
       </div>
     </div>

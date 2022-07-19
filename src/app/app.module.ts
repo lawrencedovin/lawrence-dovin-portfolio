@@ -17,7 +17,6 @@ import { PortfolioModule } from './modules/portfolio/portfolio.module';
 import { ResumeModule } from './modules/resume/resume.module';
 import { AboutModule } from './modules/about/about.module';
 
-
 @NgModule({
   declarations: [
     AppComponent,
