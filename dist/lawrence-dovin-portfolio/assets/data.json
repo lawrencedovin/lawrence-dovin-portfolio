@@ -183,6 +183,7 @@
     "title": "Portfolio Website",
     "technologies": [
       "Angular 14",
+      "TypeScript",
       "JavaScript",
       "HTML",
       "Sass SCSS",
@@ -192,5 +193,21 @@
     "image": "portfolio-website.gif",
     "websiteURL": "https://lawrencedovin.github.io/lawrence-dovin-portfolio/",
     "codeURL": "https://github.com/lawrencedovin/natours"
+  },
+
+  {
+    "title": "Star Wars Application",
+    "technologies": [
+      "Angular 14",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "Star Wars Application follows the Angular Essentials (Angular 2+ with TypeScript) course. Retrieves Star Wars characters from the Star Wars API and allows users to create New Characters and to pick between the Light side and Dark side per character.",
+    "image": "starwars-angular-app.gif",
+    "websiteURL": "https://lawrencedovin.github.io/starwars-angular-app/",
+    "codeURL": "https://github.com/lawrencedovin/starwars-angular-app"
   }
 ]
