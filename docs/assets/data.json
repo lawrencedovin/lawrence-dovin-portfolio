@@ -1,0 +1,213 @@
+[
+  {
+      "title": "Qwikwire's Landing Page",
+      "technologies": [
+        "AngularJS 1.6",
+        "Angular Material",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "description": "Qwikwire’s revamped landing page which was designed and organized to allow the visitor to understand Qwikwire’s business model efficiently in a single page website.",
+      "image": "qwikwire-landing-page.gif",
+      "websiteURL": "https://qwikwire.com/"
+  },
+  {
+    "title": "Qwikwire's Consumers Dashboard",
+    "technologies": [
+      "AngularJS 1.X",
+      "Angular Material",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "description": "The Consumers Dashboard is a tool that condenses all the payments transactions along with their statuses into one platform. It allows customers to manage their transactions and refunds between property clients.",
+    "image": "qwikwire-consumers-dashboard.jpg"
+  },
+  {
+    "title": "Qwikwire's Payment Portals",
+    "technologies": [
+      "AngularJS 1.X",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "description": "The Payment Portals allow oversea workers that have plans to retire in the Philippines from the US to make cross-border payments for their property payments directly to the property client which eliminates the need for a middleman to pay on the oversea worker’s behalf.",
+    "image": "qwikwire-payment-portal.jpg"
+  },
+  {
+    "title": "Wonder Recipe",
+    "technologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "Wonder Recipe allows users who want to discover recipes to do so conveniently from the website all the way to the grocery store. Over 550 Recipes extracted from spoonacular API including recipe details such as cuisine, diet, ingredients, macros, and cooking directions.",
+    "image": "wonder-recipe.gif",
+    "websiteURL": "https://wonder-recipe.herokuapp.com/",
+    "codeURL": "https://github.com/lawrencedovin/capstone-1-wonder-recipe"
+  },
+  {
+    "title": "Bark",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "Express",
+      "Node.js",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "Dog adoption website which discovers 100,000s of actively available dogs from the petfinder API. Where users can find their new best friend by filtering their location and breed.",
+    "image": "bark.gif",
+    "codeURL": "https://github.com/lawrencedovin/capstone-2-bark"
+  },
+  {
+    "title": "Boggle",
+    "technologies": [
+      "Python",
+      "Flask",
+      "JavaScript",
+      "HTML",
+      "Sass SCSS"
+    ],
+    "description": "Word Game where users try to find the most words for points within a countdown. Where the words found will be a sequence of adjacent letters on the Boggle board.",
+    "image": "boggle.gif",
+    "websiteURL": "https://boggle-py.herokuapp.com/",
+    "codeURL": "https://github.com/lawrencedovin/boggle"
+  },
+  {
+    "title": "Connect 4",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "description": "2-player Board Game where each user has a different colored disk. The users take turns dropping their disks to connect 4 of their adjacent disks to win. ",
+    "image": "connect-four.gif",
+    "websiteURL": "https://lawrencedovin.github.io/connect-four/",
+    "codeURL": "https://github.com/lawrencedovin/connect-four"
+  },
+  {
+    "title": "Memory Game",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "description": "Memory game where you try to match cards with the least amount of turns.",
+    "image": "memory-game.gif",
+    "websiteURL": "https://lawrencedovin.github.io/memory-game/",
+    "codeURL": "https://github.com/lawrencedovin/memory-game"
+  },
+  {
+    "title": "To-do List",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "description": "A simple to-do list where users add, strike off and delete tasks.",
+    "image": "to-do.gif",
+    "websiteURL": "https://lawrencedovin.github.io/to-do/",
+    "codeURL": "https://github.com/lawrencedovin/to-do"
+  },
+  {
+    "title": "Meme Generator",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "description": "User generates their own customized memes by adding their image and caption.",
+    "image": "meme-generator.gif",
+    "websiteURL": "https://lawrencedovin.github.io/meme-generator/",
+    "codeURL": "https://github.com/lawrencedovin/meme-generator"
+  },
+  {
+    "title": "Jeopardy!",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "Jeopardy is based on a famous American Quiz Show. Where participants answer categorical questions for money.",
+    "image": "jeopardy.gif",
+    "websiteURL": "https://lawrencedovin.github.io/jeopardy/",
+    "codeURL": "https://github.com/lawrencedovin/jeopardy"
+  },
+  {
+    "title": "Gospel Bookmarks",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "Gospel Bookmarks allows the user to print free colored and black and white Christian animal bookmarks in 8 different languages.",
+    "image": "gospel-bookmarks.gif",
+    "websiteURL": "https://lawrencedovin.github.io/gospel-bookmarks/",
+    "codeURL": "https://github.com/lawrencedovin/gospel-bookmarks"
+  },
+  {
+    "title": "Nexter",
+    "technologies": [
+      "HTML",
+      "Sass SCSS"
+    ],
+    "description": "Real Estate Website which is the Final Project following the Advanced CSS and Sass Course using CSS Grid.",
+    "image": "nexter.gif",
+    "websiteURL": "https://lawrencedovin.github.io/nexter/",
+    "codeURL": "https://github.com/lawrencedovin/nexter"
+  },
+  {
+    "title": "Natours",
+    "technologies": [
+      "HTML",
+      "Sass SCSS"
+    ],
+    "description": "Adventure Tours Website following the Advanced CSS and Sass Course using CSS Grid.",
+    "image": "natours.gif",
+    "websiteURL": "https://lawrencedovin.github.io/natours/",
+    "codeURL": "https://github.com/lawrencedovin/natours"
+  },
+  {
+    "title": "Portfolio Website",
+    "technologies": [
+      "Angular 14",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "Portfolio Website which displays Lawrence's projects over the years.",
+    "image": "portfolio-website.gif",
+    "websiteURL": "https://lawrencedovin.github.io/lawrence-dovin-portfolio/",
+    "codeURL": "https://github.com/lawrencedovin/natours"
+  },
+
+  {
+    "title": "Star Wars Application",
+    "technologies": [
+      "Angular 14",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "Sass SCSS",
+      "Bootstrap"
+    ],
+    "description": "Star Wars Application follows the Angular Essentials (Angular 2+ with TypeScript) course. Retrieves Star Wars characters from the Star Wars API and allows users to create New Characters and to pick between the Light side and Dark side per character.",
+    "image": "starwars-angular-app.gif",
+    "websiteURL": "https://lawrencedovin.github.io/starwars-angular-app/",
+    "codeURL": "https://github.com/lawrencedovin/starwars-angular-app"
+  }
+]
